@@ -6,7 +6,7 @@ from langchain_community.embeddings import OllamaEmbeddings
 PERSIST_DIR = "./chroma_db"
 
 def ingest_documents():
-    loader = PyPDFLoader("documents/Pranav's_Resume1.pdf")
+    loader = PyPDFLoader("documents/Sample.pdf")
     documents = loader.load()
 
     text_splitter = RecursiveCharacterTextSplitter(
