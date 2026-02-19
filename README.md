@@ -1,4 +1,4 @@
-##Agentic AI Chatbot with Retrieval-Augmented Generation (RAG)
+#Agentic AI Chatbot with Retrieval-Augmented Generation (RAG)
 
 #Project Overview
 
