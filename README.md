@@ -1,1 +1,7 @@
-# Agentic-AI-chatbot
+##Agentic AI Chatbot with Retrieval-Augmented Generation (RAG)
+
+#Project Overview
+
+This project presents a lightweight Agentic AI Chatbot with Retrieval-Augmented Generation (RAG) that runs entirely on a local system without relying on external APIs or cloud-based large language models. The chatbot integrates a compact yet powerful language model (phi3:mini) through Ollama and combines it with a vector database to enable intelligent, context-aware document understanding and response generation. By ingesting PDF documents, splitting them into meaningful chunks, generating embeddings using nomic-embed-text, and storing them in a Chroma vector database, the system can retrieve the most relevant information based on user queries and provide grounded, accurate responses.
+
+Unlike traditional chatbots that rely only on pretrained knowledge, this system enhances response quality by dynamically retrieving document-specific context in real time. It incorporates agentic behavior through a tool-based reasoning framework, allowing the model to autonomously decide when to invoke a Document Search tool before answering. This demonstrates practical implementation of modern AI system design principles, including local LLM deployment, vector similarity search, intelligent retrieval mechanisms, and structured decision-making within a RAG pipeline. The architecture is optimized for efficiency and low-resource environments, making it suitable for academic projects, research applications, enterprise knowledge assistants, and privacy-focused AI solutions.
