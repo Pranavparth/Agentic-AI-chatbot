@@ -25,7 +25,7 @@ def ingest_documents():
     )
 
     vectorstore.persist()
-    print("✅ Documents embedded successfully!")
+    print("Documents embedded successfully!")
 
 if __name__ == "__main__":
     ingest_documents()
